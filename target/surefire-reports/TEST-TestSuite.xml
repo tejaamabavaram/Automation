@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="328.55" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\venkatarami.reddy\QASWorkspace\Venkat_Ajio"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\venkatarami.reddy\QASWorkspace\Venkat_Ajio"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VENKAT~1.RED\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\venkatarami.reddy\QASWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4649665821027013002.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\venkatarami.reddy\AppData\Local\Android\Sdk\build-tools;C:\Users\venkatarami.reddy\AppData\Local\Android\Sdk\platform-tools;C:\Users\venkatarami.reddy\AppData\Local\Android\Sdk;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Git\cmd;D:\venkat;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\venkatarami.reddy"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Venkatarami.Reddy"/>
+    <property name="java.class.path" value="D:\venkat\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\venkatarami.reddy\QASWorkspace\Venkat_Ajio\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.venkat_ajio.tests.AjioProductOrderSteps" name="testProductOrderSteps" time="327.61">
+    <failure message="timeout
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.20 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12225&apos;, ip: &apos;10.11.31.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\VENKAT~1.RED\AppData\Local\Temp\scoped_dir1764_19706}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ec451d74f89079e655ba18c839a52424" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.20 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12225&apos;, ip: &apos;10.11.31.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\VENKAT~1.RED\AppData\Local\Temp\scoped_dir1764_19706}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ec451d74f89079e655ba18c839a52424
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.venkat_ajio.pages.SearchResultsTestPage.selectProduct(SearchResultsTestPage.java:116)
+	at com.venkat_ajio.tests.AjioProductOrderSteps.testProductOrderSteps(AjioProductOrderSteps.java:25)
+</failure>
+    <system-out>...
+... TestNG 6.10 by C�dric Beust (cedric@beust.com)
+...
+
+[ConfigurationManager] - ISFW build info: {qaf-Type=core, qaf-Revision=12-RC3, qaf-Version=2.1, qaf-Build-Time=06-Aug-2017 11:49:43}
+[ConfigurationManager] - Resource dir: C:\Users\venkatarami.reddy\QASWorkspace\Venkat_Ajio\resources. Found property files to load: 3
+[ConfigurationManager] - Resource dir: C:\Users\venkatarami.reddy\QASWorkspace\Venkat_Ajio\resources. Found property files to load: 0
+[QAFTestBase] - Initializing Driver...browser_str:chromeDriver,base_url:http://www.ajio.com,sel_server:localhost,port:4444
+[UiDriverFactory] - Driver: chromeDriver
+driver init done
+[WebDriverCommandLogger] - Executing get parameters: {&quot;url&quot;:&quot;http://www.ajio.com&quot;}
+[WebDriverCommandLogger] - command: get[ param-1: {url=http://www.ajio.com}] Result: null
+[WebDriverCommandLogger] - Executing maximizeWindow parameters: {&quot;windowHandle&quot;:&quot;current&quot;}
+[WebDriverCommandLogger] - command: maximizeWindow[ param-1: {windowHandle=current}] Result: null
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;a[href=&apos;/shop/men&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=a[href=&apos;/shop/men&apos;], using=css selector}] Result: id: 0.22454397423544226-1
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.cssSelector: a[href=&apos;/shop/men&apos;] parameters: {&quot;id&quot;:&quot;0.22454397423544226-1&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.cssSelector: a[href=&apos;/shop/men&apos;] param-2: {&quot;id&quot;:&quot;0.22454397423544226-1&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;a[href=&apos;/shop/men&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=a[href=&apos;/shop/men&apos;], using=css selector}] Result: [id: 0.22454397423544226-1, id: 0.22454397423544226-2]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;a[href=&apos;/shop/men&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=a[href=&apos;/shop/men&apos;], using=css selector}] Result: id: 0.22454397423544226-1
+[WebDriverCommandLogger] - Executing clickElement element: By.cssSelector: a[href=&apos;/shop/men&apos;] parameters: {&quot;id&quot;:&quot;0.22454397423544226-1&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.cssSelector: a[href=&apos;/shop/men&apos;] param-2: {&quot;id&quot;:&quot;0.22454397423544226-1&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@title=&apos;MEN&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//a[@title=&apos;MEN&apos;], using=xpath}] Result: id: 0.8821312719546892-1
+[WebDriverCommandLogger] - Executing mouseMoveTo parameters: {&quot;element&quot;:&quot;0.8821312719546892-1&quot;}
+[WebDriverCommandLogger] - command: mouseMoveTo[ param-1: {element=0.8821312719546892-1}] Result: null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@title=&apos;Shirts&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@title=&apos;Shirts&apos;], using=xpath}] Result: []
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@title=&apos;Shirts&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//a[@title=&apos;Shirts&apos;], using=xpath}] Result: [id: 0.8821312719546892-2, id: 0.8821312719546892-3]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@title=&apos;Shirts&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//a[@title=&apos;Shirts&apos;], using=xpath}] Result: id: 0.8821312719546892-2
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //a[@title=&apos;Shirts&apos;] parameters: {&quot;id&quot;:&quot;0.8821312719546892-2&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //a[@title=&apos;Shirts&apos;] param-2: {&quot;id&quot;:&quot;0.8821312719546892-2&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//a[@title=&apos;Shirts&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//a[@title=&apos;Shirts&apos;], using=xpath}] Result: id: 0.8821312719546892-2
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //a[@title=&apos;Shirts&apos;] parameters: {&quot;id&quot;:&quot;0.8821312719546892-2&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //a[@title=&apos;Shirts&apos;] param-2: {&quot;id&quot;:&quot;0.8821312719546892-2&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;five-grid&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//div[@class=&apos;five-grid&apos;], using=xpath}] Result: id: 0.11982328170682899-1
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.xpath: //div[@class=&apos;five-grid&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-1&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.xpath: //div[@class=&apos;five-grid&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-1&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;five-grid&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=//div[@class=&apos;five-grid&apos;], using=xpath}] Result: [id: 0.11982328170682899-1]
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//div[@class=&apos;five-grid&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//div[@class=&apos;five-grid&apos;], using=xpath}] Result: id: 0.11982328170682899-1
+[WebDriverCommandLogger] - Executing clickElement element: By.xpath: //div[@class=&apos;five-grid&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-1&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.xpath: //div[@class=&apos;five-grid&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-1&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//select&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//select, using=xpath}] Result: id: 0.11982328170682899-2
+[WebDriverCommandLogger] - Executing getElementTagName element: By.xpath: //select parameters: {&quot;id&quot;:&quot;0.11982328170682899-2&quot;}
+[WebDriverCommandLogger] - command: getElementTagName[ param-1: By.xpath: //select param-2: {&quot;id&quot;:&quot;0.11982328170682899-2&quot;}] Result: getElementTagName:select
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//select&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//select, using=xpath}] Result: id: 0.11982328170682899-2
+[WebDriverCommandLogger] - Executing getElementAttribute element: By.xpath: //select parameters: {&quot;name&quot;:&quot;multiple&quot;,&quot;id&quot;:&quot;0.11982328170682899-2&quot;}
+[WebDriverCommandLogger] - command: getElementAttribute[ param-1: By.xpath: //select param-2: {&quot;name&quot;:&quot;multiple&quot;,&quot;id&quot;:&quot;0.11982328170682899-2&quot;}] Result: getElementAttribute:null
+[WebDriverCommandLogger] - Executing findElement parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;//select&quot;}
+[WebDriverCommandLogger] - command: findElement[ param-1: {value=//select, using=xpath}] Result: id: 0.11982328170682899-2
+[WebDriverCommandLogger] - Executing findChildElements element: By.xpath: //select parameters: {&quot;using&quot;:&quot;xpath&quot;,&quot;id&quot;:&quot;0.11982328170682899-2&quot;,&quot;value&quot;:&quot;.//option[normalize-space(.) = \&quot;Price (highest first)\&quot;]&quot;}
+[WebDriverCommandLogger] - command: findChildElements[ param-1: By.xpath: //select param-2: {&quot;using&quot;:&quot;xpath&quot;,&quot;id&quot;:&quot;0.11982328170682899-2&quot;,&quot;value&quot;:&quot;.//option[normalize-space(.) = \&quot;Price (highest first)\&quot;]&quot;}] Result: findChildElements:[id: 0.11982328170682899-3]
+[WebDriverCommandLogger] - Executing isElementSelected element: id: 0.11982328170682899-3 parameters: {&quot;id&quot;:&quot;0.11982328170682899-3&quot;}
+[WebDriverCommandLogger] - command: isElementSelected[ param-1: id: 0.11982328170682899-3 param-2: {&quot;id&quot;:&quot;0.11982328170682899-3&quot;}] Result: isElementSelected:false
+[WebDriverCommandLogger] - Executing clickElement element: id: 0.11982328170682899-3 parameters: {&quot;id&quot;:&quot;0.11982328170682899-3&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: id: 0.11982328170682899-3 param-2: {&quot;id&quot;:&quot;0.11982328170682899-3&quot;}] Result: clickElement:null
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;div[class=&apos;preview&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=div[class=&apos;preview&apos;], using=css selector}] Result: [id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]
+[WebDriverCommandLogger] - Executing findChildElements element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElements[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElements:[id: 0.11982328170682899-49]
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-49
+[WebDriverCommandLogger] - Executing isElementDisplayed element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-49&quot;}
+[WebDriverCommandLogger] - command: isElementDisplayed[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-49&quot;}] Result: isElementDisplayed:true
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;div[class=&apos;preview&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=div[class=&apos;preview&apos;], using=css selector}] Result: [id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottestProductOrderSteps_19zjxfzc475223383.png
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;div[class=&apos;preview&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=div[class=&apos;preview&apos;], using=css selector}] Result: [id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-50
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-50&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-50&quot;}] Result: getElementText:Rs. 6,746
+ProductPrice:Rs. 6,746
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-49
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-49&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-49&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-5&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-5&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-51
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-51&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-51&quot;}] Result: getElementText:Rs. 4,995
+ProductPrice:Rs. 4,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-5&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-5&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-52
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-52&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-52&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-6&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-6&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-53
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-53&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-53&quot;}] Result: getElementText:Rs. 4,495
+ProductPrice:Rs. 4,495
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-6&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-6&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-54
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-54&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-54&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-7&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-7&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-55
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-55&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-55&quot;}] Result: getElementText:Rs. 4,495
+ProductPrice:Rs. 4,495
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-7&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-7&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-56
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-56&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-56&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-8&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-8&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-57
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-57&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-57&quot;}] Result: getElementText:Rs. 3,995
+ProductPrice:Rs. 3,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-8&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-8&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-58
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-58&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-58&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-9&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-9&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-59
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-59&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-59&quot;}] Result: getElementText:Rs. 3,995
+ProductPrice:Rs. 3,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-9&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-9&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-60
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-60&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-60&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-10&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-10&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-61
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-61&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-61&quot;}] Result: getElementText:Rs. 3,995
+ProductPrice:Rs. 3,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-10&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-10&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-62
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-62&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-62&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-11&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-11&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-63
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-63&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-63&quot;}] Result: getElementText:Rs. 3,995
+ProductPrice:Rs. 3,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-11&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-11&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-64
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-64&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-64&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-12&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-12&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-65
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-65&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-65&quot;}] Result: getElementText:Rs. 3,599
+ProductPrice:Rs. 3,599
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-12&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-12&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-66
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-66&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-66&quot;}] Result: getElementText:Lee
+ProductBrand:Lee
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-13&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-13&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-67
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-67&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-67&quot;}] Result: getElementText:Rs. 3,596
+ProductPrice:Rs. 3,596
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-13&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-13&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-68
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-68&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-68&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-14&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-14&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-69
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-69&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-69&quot;}] Result: getElementText:Rs. 3,495
+ProductPrice:Rs. 3,495
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-14&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-14&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-70
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-70&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-70&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-15&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-15&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-71
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-71&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-71&quot;}] Result: getElementText:Rs. 3,495
+ProductPrice:Rs. 3,495
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-15&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-15&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-72
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-72&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-72&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-16&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-16&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-73
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-73&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-73&quot;}] Result: getElementText:Rs. 3,495
+ProductPrice:Rs. 3,495
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-16&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-16&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-74
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-74&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-74&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-17&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-17&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-75
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-75&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-75&quot;}] Result: getElementText:Rs. 3,493
+ProductPrice:Rs. 3,493
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-17&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-17&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-76
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-76&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-76&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-18&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-18&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-77
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-77&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-77&quot;}] Result: getElementText:Rs. 3,493
+ProductPrice:Rs. 3,493
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-18&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-18&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-78
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-78&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-78&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-19&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-19&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-79
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-79&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-79&quot;}] Result: getElementText:Rs. 3,493
+ProductPrice:Rs. 3,493
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-19&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-19&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-80
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-80&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-80&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-20&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-20&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-81
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-81&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-81&quot;}] Result: getElementText:Rs. 3,493
+ProductPrice:Rs. 3,493
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-20&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-20&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-82
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-82&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-82&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-21&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-21&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-83
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-83&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-83&quot;}] Result: getElementText:Rs. 3,493
+ProductPrice:Rs. 3,493
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-21&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-21&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-84
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-84&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-84&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-22&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-22&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-85
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-85&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-85&quot;}] Result: getElementText:Rs. 3,493
+ProductPrice:Rs. 3,493
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-22&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-22&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-86
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-86&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-86&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-23&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-23&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-87
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-87&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-87&quot;}] Result: getElementText:Rs. 3,493
+ProductPrice:Rs. 3,493
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-23&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-23&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-88
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-88&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-88&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-24&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-24&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-89
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-89&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-89&quot;}] Result: getElementText:Rs. 3,493
+ProductPrice:Rs. 3,493
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-24&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-24&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-90
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-90&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-90&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-25&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-25&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-91
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-91&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-91&quot;}] Result: getElementText:Rs. 3,493
+ProductPrice:Rs. 3,493
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-25&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-25&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-92
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-92&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-92&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-26&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-26&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-93
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-93&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-93&quot;}] Result: getElementText:Rs. 3,399
+ProductPrice:Rs. 3,399
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-26&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-26&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-94
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-94&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-94&quot;}] Result: getElementText:Lee
+ProductBrand:Lee
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-27&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-27&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-95
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-95&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-95&quot;}] Result: getElementText:Rs. 3,199
+ProductPrice:Rs. 3,199
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-27&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-27&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-96
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-96&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-96&quot;}] Result: getElementText:US POLO
+ProductBrand:US POLO
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-28&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-28&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-97
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-97&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-97&quot;}] Result: getElementText:Rs. 3,199
+ProductPrice:Rs. 3,199
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-28&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-28&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-98
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-98&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-98&quot;}] Result: getElementText:US POLO
+ProductBrand:US POLO
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-29&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-29&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-99
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-99&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-99&quot;}] Result: getElementText:Rs. 3,199
+ProductPrice:Rs. 3,199
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-29&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-29&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-100
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-100&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-100&quot;}] Result: getElementText:US POLO
+ProductBrand:US POLO
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-30&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-30&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-101
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-101&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-101&quot;}] Result: getElementText:Rs. 3,039
+ProductPrice:Rs. 3,039
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-30&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-30&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-102
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-102&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-102&quot;}] Result: getElementText:Lee
+ProductBrand:Lee
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-31&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-31&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-103
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-103&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-103&quot;}] Result: getElementText:Rs. 2,999
+ProductPrice:Rs. 2,999
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-31&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-31&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-104
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-104&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-104&quot;}] Result: getElementText:Jack &amp; Jones
+ProductBrand:Jack &amp; Jones
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-32&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-32&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-105
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-105&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-105&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-32&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-32&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-106
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-106&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-106&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-33&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-33&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-107
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-107&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-107&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-33&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-33&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-108
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-108&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-108&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-34&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-34&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-109
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-109&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-109&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-34&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-34&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-110
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-110&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-110&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-35&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-35&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-111
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-111&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-111&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-35&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-35&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-112
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-112&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-112&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-36&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-36&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-113
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-113&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-113&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-36&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-36&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-114
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-114&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-114&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-37&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-37&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-115
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-115&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-115&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-37&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-37&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-116
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-116&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-116&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-38&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-38&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-117
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-117&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-117&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-38&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-38&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-118
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-118&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-118&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-39&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-39&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-119
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-119&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-119&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-39&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-39&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-120
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-120&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-120&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-40&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-40&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-121
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-121&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-121&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-40&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-40&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-122
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-122&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-122&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-41&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-41&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-123
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-123&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-123&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-41&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-41&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-124
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-124&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-124&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-42&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-42&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-125
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-125&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-125&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-42&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-42&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-126
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-126&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-126&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-43&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-43&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-127
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-127&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-127&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-43&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-43&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-128
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-128&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-128&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-44&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-44&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-129
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-129&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-129&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-44&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-44&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-130
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-130&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-130&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-45&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-45&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-131
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-131&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-131&quot;}] Result: getElementText:Rs. 2,995
+ProductPrice:Rs. 2,995
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-45&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-45&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-132
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-132&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-132&quot;}] Result: getElementText:GAS
+ProductBrand:GAS
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-46&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-46&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-133
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-133&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-133&quot;}] Result: getElementText:Rs. 2,994
+ProductPrice:Rs. 2,994
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-46&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-46&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-134
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-134&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-134&quot;}] Result: getElementText:SUPERDRY
+ProductBrand:SUPERDRY
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-47&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-47&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-135
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-135&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-135&quot;}] Result: getElementText:Rs. 2,899
+ProductPrice:Rs. 2,899
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-47&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-47&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-136
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-136&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-136&quot;}] Result: getElementText:SIN
+ProductBrand:SIN
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-48&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-48&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-137
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-137&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-137&quot;}] Result: getElementText:Rs. 2,899
+ProductPrice:Rs. 2,899
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-48&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-48&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-138
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-138&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-138&quot;}] Result: getElementText:Lee
+ProductBrand:Lee
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;div[class=&apos;preview&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=div[class=&apos;preview&apos;], using=css selector}] Result: [id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;div[class=&apos;brand&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-49
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: div[class=&apos;brand&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-49&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: div[class=&apos;brand&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-49&quot;}] Result: getElementText:GAS
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;div[class=&apos;preview&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=div[class=&apos;preview&apos;], using=css selector}] Result: [id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-50
+[WebDriverCommandLogger] - Executing getElementText element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-50&quot;}
+[WebDriverCommandLogger] - command: getElementText[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-50&quot;}] Result: getElementText:Rs. 6,746
+[WebDriverCommandLogger] - Executing findElements parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;div[class=&apos;preview&apos;]&quot;}
+[WebDriverCommandLogger] - command: findElements[ param-1: {value=div[class=&apos;preview&apos;], using=css selector}] Result: [id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]
+[WebDriverCommandLogger] - Executing findChildElement element: By.cssSelector: div[class=&apos;preview&apos;] parameters: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}
+[WebDriverCommandLogger] - command: findChildElement[ param-1: By.cssSelector: div[class=&apos;preview&apos;] param-2: {&quot;using&quot;:&quot;css selector&quot;,&quot;id&quot;:&quot;0.11982328170682899-4&quot;,&quot;value&quot;:&quot;span[class=&apos;price&apos;]&quot;}] Result: findChildElement:id: 0.11982328170682899-50
+[WebDriverCommandLogger] - Executing clickElement element: By.cssSelector: span[class=&apos;price&apos;] parameters: {&quot;id&quot;:&quot;0.11982328170682899-50&quot;}
+[WebDriverCommandLogger] - command: clickElement[ param-1: By.cssSelector: span[class=&apos;price&apos;] param-2: {&quot;id&quot;:&quot;0.11982328170682899-50&quot;}] Result: timeout
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.20 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12225&apos;, ip: &apos;10.11.31.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\VENKAT~1.RED\AppData\Local\Temp\scoped_dir1764_19706}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ec451d74f89079e655ba18c839a52424
+[QAFInvokedMethodListener2] - org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.20 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12225&apos;, ip: &apos;10.11.31.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\VENKAT~1.RED\AppData\Local\Temp\scoped_dir1764_19706}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: ec451d74f89079e655ba18c839a52424
+[WebDriverCommandLogger] - Executing screenshot parameters: {}
+[QAFTestBase] - Capturing screen shottestProductOrderSteps_c1bqp26o67fj3384.png
+</system-out>
+    <system-err>log4j:WARN No such property [follow] in org.apache.log4j.FileAppender.
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 32118
+Only local connections are allowed.
+[326.422][SEVERE]: Timed out receiving message from renderer: 300.000
+[326.427][SEVERE]: Timed out receiving message from renderer: -0.136
+</system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,66 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.venkat_ajio.tests.AjioProductOrderSteps"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "browserName": "chrome",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "version": "",
+      "platform": "ANY",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "applicationCacheEnabled": "false",
+      "rotatable": "false",
+      "mobileEmulationEnabled": "false",
+      "networkConnectionEnabled": "false",
+      "chrome": "{chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\VENKAT~1.RED\\AppData\\Local\\Temp\\scoped_dir4840_24627}",
+      "takesHeapSnapshot": "true",
+      "pageLoadStrategy": "normal",
+      "databaseEnabled": "false",
+      "handlesAlerts": "true",
+      "hasTouchScreen": "false",
+      "version": "63.0.3239.132",
+      "platform": "XP",
+      "browserConnectionEnabled": "false",
+      "nativeEvents": "true",
+      "acceptSslCerts": "true",
+      "locationContextEnabled": "true",
+      "webStorageEnabled": "true",
+      "browserName": "chrome",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "cssSelectorsEnabled": "true",
+      "setWindowRect": "true",
+      "unexpectedAlertBehaviour": ""
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "baseurl": "http://www.ajio.com",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_151",
+      "os.arch": "amd64",
+      "host": "ICPL12225",
+      "os.name": "Windows 10",
+      "user.name": "Venkatarami.Reddy",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1516680546042,
+  "endTime": 1516680546160
+}

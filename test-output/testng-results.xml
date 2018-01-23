@@ -4,19 +4,19 @@
     <line>
       <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
 Expected: a value equal to or greater than &lt;0&gt;
-     Actual: &lt;45&gt; was greater than &lt;0&gt; <a href="../img/testProductOrderSteps_170d19bb810jy58624.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+     Actual: &lt;45&gt; was greater than &lt;0&gt; <a href="../img/testProductOrderSteps_9i6ojobxd20a12527.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
 Expected: a string containing "GAS"
-     Actual: was "GAS" <a href="../img/testProductOrderSteps_1g1nh8cwpwgvd58625.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+     Actual: was "GAS" <a href="../img/testProductOrderSteps_1oa0j00at0mj912528.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
 Expected: a string containing "Rs. 6,746"
-     Actual: was "Rs. 6,746" <a href="../img/testProductOrderSteps_sjm5ett5rhgq58626.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+     Actual: was "Rs. 6,746" <a href="../img/testProductOrderSteps_jgmixn8knhky12529.png" target="_blank">[View Screenshot]</a> </div></div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45847" started-at="2018-01-22T09:28:42Z" finished-at="2018-01-22T09:29:28Z">
+  <suite name="Default suite" duration-ms="42017" started-at="2018-01-23T04:08:24Z" finished-at="2018-01-23T04:09:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45847" started-at="2018-01-22T09:28:42Z" finished-at="2018-01-22T09:29:28Z">
+    <test name="Default test" duration-ms="42017" started-at="2018-01-23T04:08:24Z" finished-at="2018-01-23T04:09:06Z">
       <class name="com.venkat_ajio.tests.AjioProductOrderSteps">
-        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="setupSuit" is-config="true" duration-ms="30" started-at="2018-01-22T14:58:42Z" finished-at="2018-01-22T14:58:42Z">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="setupSuit" is-config="true" duration-ms="37" started-at="2018-01-23T09:38:24Z" finished-at="2018-01-23T09:38:24Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@ Expected: a string containing "Rs. 6,746"
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuit -->
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="setup" is-config="true" duration-ms="0" started-at="2018-01-22T14:58:42Z" finished-at="2018-01-22T14:58:42Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="setup" is-config="true" duration-ms="0" started-at="2018-01-23T09:38:24Z" finished-at="2018-01-23T09:38:24Z">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@ Expected: a string containing "Rs. 6,746"
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="setupTest" is-config="true" duration-ms="0" started-at="2018-01-22T14:58:42Z" finished-at="2018-01-22T14:58:42Z">
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="setupTest" is-config="true" duration-ms="0" started-at="2018-01-23T09:38:24Z" finished-at="2018-01-23T09:38:24Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@ Expected: a string containing "Rs. 6,746"
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-01-22T14:58:42Z" finished-at="2018-01-22T14:58:42Z">
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-01-23T09:38:24Z" finished-at="2018-01-23T09:38:24Z">
           <params>
             <param index="0">
               <value>
@@ -65,42 +65,20 @@ Expected: a string containing "Rs. 6,746"
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="testProductOrderSteps()[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="testProductOrderSteps" duration-ms="45754" started-at="2018-01-22T14:58:42Z" finished-at="2018-01-22T14:59:28Z">
+        <test-method status="PASS" signature="testProductOrderSteps()[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="testProductOrderSteps" duration-ms="41930" started-at="2018-01-23T09:38:24Z" finished-at="2018-01-23T09:39:06Z">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
 Expected: a value equal to or greater than &lt;0&gt;
-     Actual: &lt;45&gt; was greater than &lt;0&gt; <a href="../img/testProductOrderSteps_170d19bb810jy58624.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+     Actual: &lt;45&gt; was greater than &lt;0&gt; <a href="../img/testProductOrderSteps_9i6ojobxd20a12527.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
 Expected: a string containing "GAS"
-     Actual: was "GAS" <a href="../img/testProductOrderSteps_1g1nh8cwpwgvd58625.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+     Actual: was "GAS" <a href="../img/testProductOrderSteps_1oa0j00at0mj912528.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
 Expected: a string containing "Rs. 6,746"
-     Actual: was "Rs. 6,746" <a href="../img/testProductOrderSteps_sjm5ett5rhgq58626.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+     Actual: was "Rs. 6,746" <a href="../img/testProductOrderSteps_jgmixn8knhky12529.png" target="_blank">[View Screenshot]</a> </div></div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testProductOrderSteps -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-22T14:59:28Z" finished-at="2018-01-22T14:59:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@56a6d5a6]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=testProductOrderSteps status=SUCCESS method=AjioProductOrderSteps.testProductOrderSteps()[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13] output=<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: a value equal to or greater than &lt;0&gt;
-     Actual: &lt;45&gt; was greater than &lt;0&gt; <a href="../img/testProductOrderSteps_170d19bb810jy58624.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
-Expected: a string containing "GAS"
-     Actual: was "GAS" <a href="../img/testProductOrderSteps_1g1nh8cwpwgvd58625.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
-Expected: a string containing "Rs. 6,746"
-     Actual: was "Rs. 6,746" <a href="../img/testProductOrderSteps_sjm5ett5rhgq58626.png" target="_blank">[View Screenshot]</a> </div></div>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-22T14:59:28Z" finished-at="2018-01-22T14:59:28Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-23T09:39:06Z" finished-at="2018-01-23T09:39:06Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +89,29 @@ Expected: a string containing "Rs. 6,746"
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="afterTest" is-config="true" duration-ms="27" started-at="2018-01-22T14:59:28Z" finished-at="2018-01-22T14:59:28Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-23T09:39:06Z" finished-at="2018-01-23T09:39:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56a6d5a6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testProductOrderSteps status=SUCCESS method=AjioProductOrderSteps.testProductOrderSteps()[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13] output=<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value equal to or greater than &lt;0&gt;
+     Actual: &lt;45&gt; was greater than &lt;0&gt; <a href="../img/testProductOrderSteps_9i6ojobxd20a12527.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "GAS"
+     Actual: was "GAS" <a href="../img/testProductOrderSteps_1oa0j00at0mj912528.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Rs. 6,746"
+     Actual: was "Rs. 6,746" <a href="../img/testProductOrderSteps_jgmixn8knhky12529.png" target="_blank">[View Screenshot]</a> </div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="afterTest" is-config="true" duration-ms="40" started-at="2018-01-23T09:39:06Z" finished-at="2018-01-23T09:39:06Z">
           <params>
             <param index="0">
               <value>
@@ -122,7 +122,7 @@ Expected: a string containing "Rs. 6,746"
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="afterSuit" is-config="true" duration-ms="0" started-at="2018-01-22T14:59:28Z" finished-at="2018-01-22T14:59:28Z">
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]" name="afterSuit" is-config="true" duration-ms="0" started-at="2018-01-23T09:39:06Z" finished-at="2018-01-23T09:39:06Z">
           <params>
             <param index="0">
               <value>

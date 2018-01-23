@@ -1,0 +1,2230 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://www.ajio.com}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 5100
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1168
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[href='/shop/men'], using=css selector}"
+      ],
+      "result": "id: 0.22454397423544226-1",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: a[href='/shop/men']",
+        "{\"id\":\"0.22454397423544226-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=a[href='/shop/men'], using=css selector}"
+      ],
+      "result": "[id: 0.22454397423544226-1, id: 0.22454397423544226-2]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=a[href='/shop/men'], using=css selector}"
+      ],
+      "result": "id: 0.22454397423544226-1",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: a[href='/shop/men']",
+        "{\"id\":\"0.22454397423544226-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 827
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@title='MEN'], using=xpath}"
+      ],
+      "result": "id: 0.8821312719546892-1",
+      "subLogs": [],
+      "duration": 636
+    },
+    {
+      "commandName": "mouseMoveTo",
+      "args": [
+        "{element=0.8821312719546892-1}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[@title='Shirts'], using=xpath}"
+      ],
+      "result": "[]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[@title='Shirts'], using=xpath}"
+      ],
+      "result": "[id: 0.8821312719546892-2, id: 0.8821312719546892-3]",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@title='Shirts'], using=xpath}"
+      ],
+      "result": "id: 0.8821312719546892-2",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //a[@title='Shirts']",
+        "{\"id\":\"0.8821312719546892-2\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[@title='Shirts'], using=xpath}"
+      ],
+      "result": "id: 0.8821312719546892-2",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[@title='Shirts']",
+        "{\"id\":\"0.8821312719546892-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 799
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='five-grid'], using=xpath}"
+      ],
+      "result": "id: 0.11982328170682899-1",
+      "subLogs": [],
+      "duration": 611
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //div[@class='five-grid']",
+        "{\"id\":\"0.11982328170682899-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//div[@class='five-grid'], using=xpath}"
+      ],
+      "result": "[id: 0.11982328170682899-1]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//div[@class='five-grid'], using=xpath}"
+      ],
+      "result": "id: 0.11982328170682899-1",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //div[@class='five-grid']",
+        "{\"id\":\"0.11982328170682899-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 133
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select, using=xpath}"
+      ],
+      "result": "id: 0.11982328170682899-2",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "getElementTagName",
+      "args": [
+        "By.xpath: //select",
+        "{\"id\":\"0.11982328170682899-2\"}"
+      ],
+      "result": "getElementTagName:select",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select, using=xpath}"
+      ],
+      "result": "id: 0.11982328170682899-2",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementAttribute",
+      "args": [
+        "By.xpath: //select",
+        "{\"name\":\"multiple\",\"id\":\"0.11982328170682899-2\"}"
+      ],
+      "result": "getElementAttribute:null",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//select, using=xpath}"
+      ],
+      "result": "id: 0.11982328170682899-2",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.xpath: //select",
+        "{\"using\":\"xpath\",\"id\":\"0.11982328170682899-2\",\"value\":\".//option[normalize-space(.) = \\\"Price (highest first)\\\"]\"}"
+      ],
+      "result": "findChildElements:[id: 0.11982328170682899-3]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "id: 0.11982328170682899-3",
+        "{\"id\":\"0.11982328170682899-3\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "id: 0.11982328170682899-3",
+        "{\"id\":\"0.11982328170682899-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 80
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='preview'], using=css selector}"
+      ],
+      "result": "[id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-4\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElements:[id: 0.11982328170682899-49]",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-4\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-49",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-49\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='preview'], using=css selector}"
+      ],
+      "result": "[id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='preview'], using=css selector}"
+      ],
+      "result": "[id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-4\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-50",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-50\"}"
+      ],
+      "result": "getElementText:Rs. 6,746",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-4\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-49",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-49\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-5\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-51",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-51\"}"
+      ],
+      "result": "getElementText:Rs. 4,995",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-5\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-52",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-52\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-6\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-53",
+      "subLogs": [],
+      "duration": 6
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-53\"}"
+      ],
+      "result": "getElementText:Rs. 4,495",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-6\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-54",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-54\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-7\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-55",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-55\"}"
+      ],
+      "result": "getElementText:Rs. 4,495",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-7\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-56",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-56\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-8\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-57",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-57\"}"
+      ],
+      "result": "getElementText:Rs. 3,995",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-8\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-58",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-58\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-9\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-59",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-59\"}"
+      ],
+      "result": "getElementText:Rs. 3,995",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-9\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-60",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-60\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-10\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-61",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-61\"}"
+      ],
+      "result": "getElementText:Rs. 3,995",
+      "subLogs": [],
+      "duration": 3
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-10\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-62",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-62\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-11\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-63",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-63\"}"
+      ],
+      "result": "getElementText:Rs. 3,995",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-11\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-64",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-64\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-12\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-65",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-65\"}"
+      ],
+      "result": "getElementText:Rs. 3,599",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-12\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-66",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-66\"}"
+      ],
+      "result": "getElementText:Lee",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-13\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-67",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-67\"}"
+      ],
+      "result": "getElementText:Rs. 3,596",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-13\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-68",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-68\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-14\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-69",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-69\"}"
+      ],
+      "result": "getElementText:Rs. 3,495",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-14\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-70",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-70\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-15\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-71",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-71\"}"
+      ],
+      "result": "getElementText:Rs. 3,495",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-15\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-72",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-72\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-16\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-73",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-73\"}"
+      ],
+      "result": "getElementText:Rs. 3,495",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-16\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-74",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-74\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-17\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-75",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-75\"}"
+      ],
+      "result": "getElementText:Rs. 3,493",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-17\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-76",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-76\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-18\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-77",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-77\"}"
+      ],
+      "result": "getElementText:Rs. 3,493",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-18\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-78",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-78\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-19\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-79",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-79\"}"
+      ],
+      "result": "getElementText:Rs. 3,493",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-19\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-80",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-80\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-20\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-81",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-81\"}"
+      ],
+      "result": "getElementText:Rs. 3,493",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-20\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-82",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-82\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-21\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-83",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-83\"}"
+      ],
+      "result": "getElementText:Rs. 3,493",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-21\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-84",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-84\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-22\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-85",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-85\"}"
+      ],
+      "result": "getElementText:Rs. 3,493",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-22\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-86",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-86\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-23\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-87",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-87\"}"
+      ],
+      "result": "getElementText:Rs. 3,493",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-23\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-88",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-88\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-24\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-89",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-89\"}"
+      ],
+      "result": "getElementText:Rs. 3,493",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-24\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-90",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-90\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-25\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-91",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-91\"}"
+      ],
+      "result": "getElementText:Rs. 3,493",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-25\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-92",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-92\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-26\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-93",
+      "subLogs": [],
+      "duration": 1
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-93\"}"
+      ],
+      "result": "getElementText:Rs. 3,399",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-26\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-94",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-94\"}"
+      ],
+      "result": "getElementText:Lee",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-27\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-95",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-95\"}"
+      ],
+      "result": "getElementText:Rs. 3,199",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-27\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-96",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-96\"}"
+      ],
+      "result": "getElementText:US POLO",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-28\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-97",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-97\"}"
+      ],
+      "result": "getElementText:Rs. 3,199",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-28\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-98",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-98\"}"
+      ],
+      "result": "getElementText:US POLO",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-29\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-99",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-99\"}"
+      ],
+      "result": "getElementText:Rs. 3,199",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-29\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-100",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-100\"}"
+      ],
+      "result": "getElementText:US POLO",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-30\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-101",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-101\"}"
+      ],
+      "result": "getElementText:Rs. 3,039",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-30\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-102",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-102\"}"
+      ],
+      "result": "getElementText:Lee",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-31\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-103",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-103\"}"
+      ],
+      "result": "getElementText:Rs. 2,999",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-31\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-104",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-104\"}"
+      ],
+      "result": "getElementText:Jack & Jones",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-32\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-105",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-105\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-32\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-106",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-106\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-33\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-107",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-107\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-33\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-108",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-108\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-34\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-109",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-109\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-34\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-110",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-110\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-35\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-111",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-111\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-35\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-112",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-112\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-36\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-113",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-113\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-36\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-114",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-114\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-37\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-115",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-115\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-37\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-116",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-116\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-38\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-117",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-117\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-38\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-118",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-118\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-39\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-119",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-119\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-39\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-120",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-120\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-40\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-121",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-121\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 2
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-40\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-122",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-122\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-41\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-123",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-123\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-41\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-124",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-124\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 1
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-42\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-125",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-125\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-42\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-126",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-126\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-43\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-127",
+      "subLogs": [],
+      "duration": 0
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-127\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-43\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-128",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-128\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-44\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-129",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-129\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-44\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-130",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-130\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-45\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-131",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-131\"}"
+      ],
+      "result": "getElementText:Rs. 2,995",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-45\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-132",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-132\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-46\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-133",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-133\"}"
+      ],
+      "result": "getElementText:Rs. 2,994",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-46\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-134",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-134\"}"
+      ],
+      "result": "getElementText:SUPERDRY",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-47\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-135",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-135\"}"
+      ],
+      "result": "getElementText:Rs. 2,899",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-47\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-136",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-136\"}"
+      ],
+      "result": "getElementText:SIN",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-48\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-137",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-137\"}"
+      ],
+      "result": "getElementText:Rs. 2,899",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-48\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-138",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-138\"}"
+      ],
+      "result": "getElementText:Lee",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='preview'], using=css selector}"
+      ],
+      "result": "[id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-4\",\"value\":\"div[class='brand']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-49",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: div[class='brand']",
+        "{\"id\":\"0.11982328170682899-49\"}"
+      ],
+      "result": "getElementText:GAS",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='preview'], using=css selector}"
+      ],
+      "result": "[id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-4\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-50",
+      "subLogs": [],
+      "duration": 7
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-50\"}"
+      ],
+      "result": "getElementText:Rs. 6,746",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=div[class='preview'], using=css selector}"
+      ],
+      "result": "[id: 0.11982328170682899-4, id: 0.11982328170682899-5, id: 0.11982328170682899-6, id: 0.11982328170682899-7, id: 0.11982328170682899-8, id: 0.11982328170682899-9, id: 0.11982328170682899-10, id: 0.11982328170682899-11, id: 0.11982328170682899-12, id: 0.11982328170682899-13, id: 0.11982328170682899-14, id: 0.11982328170682899-15, id: 0.11982328170682899-16, id: 0.11982328170682899-17, id: 0.11982328170682899-18, id: 0.11982328170682899-19, id: 0.11982328170682899-20, id: 0.11982328170682899-21, id: 0.11982328170682899-22, id: 0.11982328170682899-23, id: 0.11982328170682899-24, id: 0.11982328170682899-25, id: 0.11982328170682899-26, id: 0.11982328170682899-27, id: 0.11982328170682899-28, id: 0.11982328170682899-29, id: 0.11982328170682899-30, id: 0.11982328170682899-31, id: 0.11982328170682899-32, id: 0.11982328170682899-33, id: 0.11982328170682899-34, id: 0.11982328170682899-35, id: 0.11982328170682899-36, id: 0.11982328170682899-37, id: 0.11982328170682899-38, id: 0.11982328170682899-39, id: 0.11982328170682899-40, id: 0.11982328170682899-41, id: 0.11982328170682899-42, id: 0.11982328170682899-43, id: 0.11982328170682899-44, id: 0.11982328170682899-45, id: 0.11982328170682899-46, id: 0.11982328170682899-47, id: 0.11982328170682899-48]",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: div[class='preview']",
+        "{\"using\":\"css selector\",\"id\":\"0.11982328170682899-4\",\"value\":\"span[class='price']\"}"
+      ],
+      "result": "findChildElement:id: 0.11982328170682899-50",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: span[class='price']",
+        "{\"id\":\"0.11982328170682899-50\"}"
+      ],
+      "result": "timeout\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 300.20 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12225', ip: '10.11.31.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\VENKAT~1.RED\\AppData\\Local\\Temp\\scoped_dir1764_19706}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: ec451d74f89079e655ba18c839a52424",
+      "subLogs": [],
+      "duration": 300240
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: a value equal to or greater than &lt;0&gt;\n     Actual: &lt;45&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "../img/testProductOrderSteps_19zjxfzc475223383.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "timeout\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 300.20 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12225', ip: '10.11.31.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\VENKAT~1.RED\\AppData\\Local\\Temp\\scoped_dir1764_19706}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: ec451d74f89079e655ba18c839a52424",
+      "type": "Fail",
+      "screenshot": "../img/testProductOrderSteps_c1bqp26o67fj3384.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome=63.0.3239.132)\n  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 300.20 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL12225', ip: '10.11.31.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\\Users\\VENKAT~1.RED\\AppData\\Local\\Temp\\scoped_dir1764_19706}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]\nSession ID: ec451d74f89079e655ba18c839a52424\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.venkat_ajio.pages.SearchResultsTestPage.selectProduct(SearchResultsTestPage.java:116)\r\n\tat com.venkat_ajio.tests.AjioProductOrderSteps.testProductOrderSteps(AjioProductOrderSteps.java:25)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)\r\n\tat org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)\r\n"
+}

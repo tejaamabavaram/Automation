@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "testProductOrderSteps",
+        "sign": "AjioProductOrderSteps.testProductOrderSteps()[pri:0, instance:com.venkat_ajio.tests.AjioProductOrderSteps@140e5a13]"
+      },
+      "dependsOn": [],
+      "startTime": 1516680504112,
+      "duration": 41930,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
