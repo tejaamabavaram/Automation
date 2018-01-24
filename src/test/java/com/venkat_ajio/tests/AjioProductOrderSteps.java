@@ -15,7 +15,7 @@ public class AjioProductOrderSteps extends WebDriverTestCase {
 		HomeTestPage homepage = new HomeTestPage();
 		homepage.launchApplication();
 		homepage.clickPopup();
-		homepage.selectCategory("MEN", "Shirts");
+		homepage.selectCategory("WOMEN", "Sarees");
 		
 		SearchResultsTestPage searchresultspage = new SearchResultsTestPage();
 		searchresultspage.selectGrid("five-grid");
