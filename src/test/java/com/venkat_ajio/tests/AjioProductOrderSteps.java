@@ -23,7 +23,7 @@ public class AjioProductOrderSteps extends WebDriverTestCase {
 		searchresultspage.setDicount("31-40%");
 		searchresultspage.selectBrand("AJIO");
 		searchresultspage.verifySelectedBranditems("AJIO");
-		searchresultspage.verifyProduct();
+		/*searchresultspage.verifyProduct();
 		searchresultspage.selectProduct(0);
 		
 		
@@ -31,7 +31,7 @@ public class AjioProductOrderSteps extends WebDriverTestCase {
 		productdetailspage.verifyProductDetailsPage();
 		productdetailspage.selectSize();
 		productdetailspage.getProductDescription();
-		productdetailspage.addToCart();
+		productdetailspage.addToCart();*/
 		
 	}
 
