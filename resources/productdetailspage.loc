@@ -4,4 +4,4 @@ detailspage.pname.txt = {\"locator\":\"css=h1[class='prod-name']\",\"desc\":\"pr
 detailspage.pcolor.txt = {\"locator\":\"css=p[class='prod-color']\",\"desc\":\"product color\"}
 detailspage.psize.txt = {\"locator\":\"xpath=//div[text()='L']\",\"desc\":\"product size\"}
 detailspage.addtobag.lnk = {\"locator\":\"xpath=//span[text()='ADD TO BAG']\",\"desc\":\"Add to Bag\"}
-detailspage.productdescription.txt = {\"locator\":\"csssection[class='prod-desc']\",\"desc\":\"product description\"}
+detailspage.productdescription.txt = {\"locator\":\"css=section[class='prod-desc']\",\"desc\":\"product description\"}
