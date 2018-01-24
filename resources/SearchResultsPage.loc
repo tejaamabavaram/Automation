@@ -6,3 +6,5 @@ searchresults.pname.link = {\"locator\":\"xpath=//div[text()='%s']\",\"desc\":\"
 searchresults.pcount.text = {\"locator\":\"css=div[class='length']\",\"desc\":\"products count\"}
 searchresults.sortby.dropdown = {\"locator\":\"xpath=//select\",\"desc\":\"sort by\"}
 searchresults.brandname.checkbox = {\"locator\":\"xpath=//input[@value='%s']\",\"desc\":\"brand\"}
+searchresults.discount.checkbox = {\"locator\":\"css=input[id='%s']\",\"desc\":\"discount\"}
+searchresults.filterstext.txt = {\"locator\":\"css=div[class='fnl-plp-filtervisible']\",\"desc\":\"search result after applid filters\"}
