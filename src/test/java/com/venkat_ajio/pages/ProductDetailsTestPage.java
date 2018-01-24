@@ -1,6 +1,5 @@
 package com.venkat_ajio.pages;
 
-import org.apache.velocity.app.tools.VelocityFormatter.VelocityAlternator;
 import org.hamcrest.Matchers;
 
 import com.qmetry.qaf.automation.core.ConfigurationManager;
@@ -8,11 +7,9 @@ import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
 import com.qmetry.qaf.automation.ui.annotations.FindBy;
 import com.qmetry.qaf.automation.ui.api.PageLocator;
 import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
-import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement;
 import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
 import com.qmetry.qaf.automation.util.Validator;
 import com.venkat_ajio.bean.ProductBeanInfo;
-import com.venkat_ajio.components.ProductComponent;
 
 public class ProductDetailsTestPage extends WebDriverBaseTestPage<WebDriverTestPage> {
 
@@ -85,6 +82,10 @@ public class ProductDetailsTestPage extends WebDriverBaseTestPage<WebDriverTestP
 		getDetailspageAddtobagLnk().waitForVisible();
 		getDetailspageAddtobagLnk().click();
 		Thread.sleep(5000);
+	}
+	public void getProductDescription()
+	{
+		System.out.println("Product Descrition:::"+getDetailspageProductdescriptionTxt().getText());
 	}
 
 }
