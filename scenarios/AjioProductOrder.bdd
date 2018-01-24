@@ -1,0 +1,18 @@
+
+
+SCENARIO: ajio product order end to end flow
+META-DATA: {"description":"ajio end to end flow","groups":["P1","P2","SMOKE"]}
+	
+	Given user is on the Homepage of www.Ajio.com
+	When user selects "Shirts" from "MEN" category
+	Then search page should be displays with list of shirts
+	And user clicks on "five-grid" item
+	Then search results page dispalys shirts with five grid container
+	And user selects shirts using the filter "Price (highest first)" 
+	Then search results page displays shirts in Highest price 
+	When user clicks on "first shirt" 
+	Then product details page displays with correct details
+	And user selects the "shirt size" 
+	Then product adds to cart
+	
+END
