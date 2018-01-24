@@ -11,16 +11,18 @@ public class AjioProductOrderSteps extends WebDriverTestCase {
 	@Test
 	public void testProductOrderSteps() throws InterruptedException
 	{
-		/* Homepage object creation and acess methods*/
+		// Homepage object creation and acess methods
 		HomeTestPage homepage = new HomeTestPage();
 		homepage.launchApplication();
 		homepage.clickPopup();
-		homepage.selectCategory("WOMEN", "Sarees");
+		homepage.selectCategory("MEN", "Shirts");
 		
 		SearchResultsTestPage searchresultspage = new SearchResultsTestPage();
 		searchresultspage.selectGrid("five-grid");
 		searchresultspage.selectSortByValue("Price (highest first)");
-		//searchresultspage.selectbrandItem("AJIO");
+		searchresultspage.setDicount("31-40%");
+		searchresultspage.selectBrand("AJIO");
+		searchresultspage.verifySelectedBranditems("AJIO");
 		searchresultspage.verifyProduct();
 		searchresultspage.selectProduct(0);
 		
