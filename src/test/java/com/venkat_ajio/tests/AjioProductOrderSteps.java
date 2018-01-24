@@ -28,6 +28,7 @@ public class AjioProductOrderSteps extends WebDriverTestCase {
 		ProductDetailsTestPage productdetailspage = new ProductDetailsTestPage();
 		productdetailspage.verifyProductDetailsPage();
 		productdetailspage.selectSize();
+		productdetailspage.getProductDescription();
 		productdetailspage.addToCart();
 		
 	}
