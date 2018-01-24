@@ -82,6 +82,7 @@ public class ProductDetailsTestPage extends WebDriverBaseTestPage<WebDriverTestP
 		getDetailspageAddtobagLnk().waitForVisible();
 		getDetailspageAddtobagLnk().click();
 		Thread.sleep(5000);
+		getDetailspageAddtobagLnk().click();
 	}
 	public void getProductDescription()
 	{
